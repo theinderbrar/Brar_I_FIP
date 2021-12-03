@@ -1,0 +1,254 @@
+/*
+Style Name: HTML Atributes & Forms 
+Description: Student Website - Final Intergrated Project
+Author: Inderpal Singh Brar 
+Version: 1.0
+Tags: Developing Website with HTML
+*/
+
+/*--------------------------------------------------------------
+Accessibility
+--------------------------------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+    font-family: 'Oswald', sans-serif;
+    list-style: none;
+    
+    
+}
+
+.anc{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 17px;
+    color: #C0C5C1;
+    
+}
+.anc:hover{
+    color: #76c985;
+}
+
+body{
+    background-color: #7D8491;
+}
+
+header{
+   background-color: #443850;
+   margin-top: 0px;
+   border: none;
+}
+
+.header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    
+    
+}
+.header ul li{
+    cursor: pointer;
+    font-size: 17px;
+    color: #C0C5C1;
+}
+
+.header ul li:hover{
+    color: #76c985;
+}
+
+main{
+    max-width: fit-content;
+    max-width: 500%;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+}
+
+p{
+    
+    text-align: center;
+    color: #EAF0CE;
+    font-weight: lighter;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+main button{
+    margin: 15px;
+    padding: 17px;
+    background-color: #BBBE64;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main button:hover{
+    background-color: #bbc01f;
+}
+
+.ctaimg{
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 2fr));
+  grid-gap: 10px;
+}
+
+.ctaimg img{
+    max-width: 100%;
+    max-height: 95%;
+    margin: auto;
+    border: 10px;
+    border-radius: 20px;
+    position: relative;
+    transition: transform 250ms;
+    cursor: pointer;
+    text-align: center;
+    padding: 1px;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.fall{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.footer{
+    margin-top: 20px;
+    background-color: #443850;
+}
+
+.footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.footer ul{
+    margin-top: 20px;
+}
+
+.footer ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 0px 20px 20px;
+    cursor: pointer;
+    color: #C0C5C1;
+    
+}
+
+.footer ul li:hover{
+    color: #D44D5C;
+}
+
+.footer ul button{
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #D44D5C;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #C0C5C1;
+    
+}
+
+.footer ul button:hover{
+    background-color: #ce263a;
+}
+
+.footer p{
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+
+/* Contact Page */
+
+.ccontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 100%;
+    gap: 30px;
+}
+
+.ccontainer img{
+    max-width: 25%;
+
+    padding: 0% 3% 0% 3%;
+}
+
+
+img{
+  
+    max-height: 79%;
+    max-width: 139%;
+}
+
+
+form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 100%;
+    margin-top: 20px;
+    padding-top: 7%;
+
+
+}
+
+input{
+    min-width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    filter: drop-shadow(0 1mm 0mm rgb(173, 155, 179));
+    outline: none;
+}
+
+input:hover{
+filter: drop-shadow(0 0mm 0mm rgb(173, 155, 179));
+}
+
+
+/* About */
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+   
+    padding: 30px;
+
+}
+
+.aimg{
+    align-items: center;
+   
+    
+
+}
+
+.aboutp{
+    padding-top: 3%;
+}
